@@ -191,3 +191,55 @@ button:hover {
 .profile-img:focus + .bio-popup {
     display: block;
 }
+
+/* Ajustes específicos para dispositivos móviles */
+@media (max-width: 768px) {
+    .subtitle-problem {
+        font-size: 1em;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .subtitle-problem {
+        font-size: 0.9em;
+        padding: 0 5px;
+    }
+}
+
+/* Otros estilos responsivos generales */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    p, li {
+        font-size: 1em;
+    }
+
+    .bio-popup, .carousel-images img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content {
+        padding: 5px;
+    }
+
+    h1, h2 {
+        font-size: 1.2em;
+    }
+
+    p, li {
+        font-size: 0.9em;
+    }
+
+    .bio-popup, .carousel-images img {
+        width: 95%;
+    }
+}
