@@ -196,7 +196,7 @@ button:hover {
 @media (max-width: 768px) {
     .subtitle-problem {
         font-size: 1em;
-        padding: 0 10px;
+        padding: 0 50px;
     }
 }
 
